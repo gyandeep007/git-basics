@@ -1,1 +1,10 @@
-ECHO is on.
+OS commands
+1.cd - to change the directory
+2.md - to make directory
+3.rmdir directory_name - to delete directory
+4.rmdir /s directory_name - to delete nested folder
+4.del file_name - to delete file 
+3.echo >filename - to create new file
+
+-------git commands-----------
+git init - this commands create a .git dir in working directory 
