@@ -8,3 +8,4 @@ OS commands
 
 -------git commands-----------
 git init - this commands create a .git dir in working directory 
+git branch -m branch_name - this command is used to change the name of the brnach
