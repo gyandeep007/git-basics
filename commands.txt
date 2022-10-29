@@ -9,3 +9,6 @@ OS commands
 -------git commands-----------
 git init - this commands create a .git dir in working directory 
 git branch -m branch_name - this command is used to change the name of the brnach
+gitignore file is used to ignore files
+git add file_name/. - is used to file from working directory to stage area.
+git commit -m "message" - this command used to commit file to repositiry
