@@ -18,3 +18,4 @@ git checkout branch_name - to checkout another branch
 branch - is a unique set of changes
 git branch - this will show all local branch
 git branch branch_name - to create new branch
+git checkout -b branch_name - to create and switch to new branch
