@@ -12,6 +12,7 @@ git branch -m branch_name - this command is used to change the name of the brnac
 gitignore file is used to ignore files
 git add file_name/. - is used to file from working directory to stage area.
 git commit -m "message" - this command used to commit file to repositiry
+<<<<<<< HEAD
 git checkout branch_name - to checkout another branch
 
 ----------branching------------
@@ -21,3 +22,6 @@ git branch branch_name - to create new branch
 git checkout -b branch_name - to create and switch to new branch
 
 git merge branch_name - used to merge branch into current branch
+=======
+---additional command---------
+>>>>>>> v1
