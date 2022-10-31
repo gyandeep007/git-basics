@@ -19,6 +19,26 @@ branch - is a unique set of changes
 git branch - this will show all local branch
 git branch branch_name - to create new branch
 git checkout -b branch_name - to create and switch to new branch
-
+git branch -D branch_name - to delete local branch
 git merge branch_name - used to merge branch into current branch
----additional command---------
+---Github commands---------
+git remote add origin URL - connect local repository to remote repository
+git push origin URL
+git pull origin URL
+git branch -a -  list all the branches from local and as well remote
+git branch -r - shows all remote branch
+git push origin remote_branch_name - to push the code from local to remote repository
+git fetch origin - to fetch the name of all branches in remote
+git branch --track local_repository_name remote_repository_name - if you have a branch in github and u want to create local branch for remote branch 
+a.)git branch --delete --remote origin/remote-branch_name - to delete remote branch
+b.) git push origin --delete branch_name
+
+-----removing files from github-----------
+follow below step:
+1. create a new branch using -- git checkout -b test
+2. add new file to test branch -- git add test.txt
+3. commit the changes to local branch -- git commit -m "adding test.txt"
+4. push the changes to remote branch -- git push origin test
+5. now we want to remove file from github for that we will remove file from local branch -- git rm test.txt
+6. commit the changes -- git commit -m "removing file"
+7. push the changes to remote branch -- git push origin test
