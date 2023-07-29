@@ -10,10 +10,12 @@ OS commands
 git init - this commands create a .git dir in working directory 
 git branch -m branch_name - this command is used to change the name of the brnach
 gitignore file is used to ignore files
-git add file_name/. - is used to file from working directory to stage area.
+git add file_name/. - is used to file from working directory to stage area. 
 git commit -m "message" - this command used to commit file to repositiry
 git checkout branch_name - to checkout another branch
-
+git help command_name - get details about command
+git log --oneline --decorate --graph -- to see log output
+git restore file_name -- to discard changes in working directory
 ----------branching------------
 branch - is a unique set of changes
 git branch - this will show all local branch
@@ -23,6 +25,9 @@ git branch -D branch_name - to delete local branch
 git merge branch_name - used to merge branch into current branch
 ---Github commands---------
 git remote add origin URL - connect local repository to remote repository
+git remote set-url origin url_value - to set upstream of an existing branch
+git remote show origin - to see details or remote 
+git config --get remote.origin.url
 git push origin URL
 git pull origin URL
 git branch -a -  list all the branches from local and as well remote
@@ -32,6 +37,7 @@ git fetch origin - to fetch the name of all branches in remote
 git branch --track local_repository_name remote_repository_name - if you have a branch in github and u want to create local branch for remote branch 
 a.)git branch --delete --remote origin/remote-branch_name - to delete remote branch
 b.) git push origin --delete branch_name
+git branch -d branch_name -- to delete local branch
 
 -----removing files from github-----------
 follow below step:
